@@ -1,7 +1,7 @@
 {
   "name": "typescript",
   "version": "1.0.0",
-  "description": "",
+  "description": "typescript",
   "main": "lib/index.js",
   "scripts": {
 	  "test":"echo \"Error: no tests specified\" && exit 1"
@@ -15,14 +15,14 @@
   },
     "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/test1093/typescript.git"
   },
 
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-	  "url": ""
+	  "url": "https://github.com/test1093/typescript.git"
   },
   "devDependencies": { 
        "prettier": "^1.13.2",
