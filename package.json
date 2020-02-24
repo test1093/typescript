@@ -4,10 +4,10 @@
   "description": "typescript",
   "main": "lib/index.js",
   "scripts": {
-	  "test":"echo \"Error: no tests specified\" && exit 1"
-	  "build": "tsc"
+	  "test":"echo \"Error: no tests specified\" && exit 1",
+	  "build": "tsc",
 	  "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-      "Lint": "tslint -p tsconfig.json"
+      "Lint": "tslint -p tsconfig.json",
       "prepare": "npm run build",
       "prepublishOnly": "npm test && npm run lint",
       "preversion": "npm run lint",
